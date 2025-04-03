@@ -1,0 +1,98 @@
+const clientschema = require("../models/clientModel")
+module.exports = {
+    Creatclient : async(req,res) => {
+        try {
+            const client = await clientschema(req.body)
+            await client.save()
+            res.status(200).json({
+               success : true,
+               message : "client est crée", 
+               data : client
+            })
+        } catch (error) {
+            res.status(400).json({
+                success : false ,
+                message : "client non crée"+error,
+                data : null,
+            })
+            
+        }
+    },
+    Getclient : async(req,res) => {
+            try {
+                const client = await clientschema.find()
+                res.status(200).json({
+                   success : true,
+                   message : "client est crée", 
+                   data : client
+                })
+            } catch (error) {
+                res.status(400).json({
+                    success : false ,
+                    message : "client non crée"+error,
+                    data : null,
+                })
+                
+            }
+        },
+    getById:async(req,res)=>{
+        try{
+            const clientId=req.params.id
+            const getOne=await clientschema.findById(clientId)
+            res.status(200).json({
+                success : true,
+                message : "client avec cette Id existe ", 
+                data : getOne
+             })
+        }
+        catch(error) {
+            res.status(400).json({
+                success : false ,
+                message : "client non get"+error,
+                data : null,
+            })
+
+        }
+    },
+    DeleteId:async(req,res)=>{
+        try{
+            const clientId=req.params.id
+            const getOne=await clientschema.findByIdAndDelete(clientId)
+            res.status(200).json({
+                success : true,
+                message : "client est supprimée ", 
+                data : getOne
+             })
+        }
+        catch(error) {
+            res.status(400).json({
+                success : false ,
+                message : "client non supprimée"+error,
+                data : null,
+            })
+
+        }
+    },
+    UpdateById: async(req,res)=>{
+        try{
+            const clientId=req.params.id
+            const getOne=await clientschema.findByIdAndUpdate(clientId,req.body,{
+                new : true
+            })
+            res.status(200).json({
+                success : true,
+                message : "client updated ", 
+                data : getOne
+             })
+        }
+        catch(error) {
+            res.status(400).json({
+                success : false ,
+                message : "client non updated"+error,
+                data : null,
+            })
+
+        }
+    },
+    
+}

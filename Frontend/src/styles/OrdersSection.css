@@ -1,0 +1,46 @@
+.orders-section h3 {
+    font-size: 20px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .order {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .order-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .order-header p {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .order-header p strong {
+    color: #1A2A44;
+  }
+  
+  .order-items {
+    margin-top: 10px;
+  }
+  
+  .order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  
+  .order-item p {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+  }

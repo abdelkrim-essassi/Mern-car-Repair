@@ -1,0 +1,36 @@
+.order-confirmation {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #F5F6F5;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .order-confirmation h2 {
+    font-size: 28px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .order-confirmation p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .order-confirmation button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-confirmation button:hover {
+    background-color: #1A2A44;
+  }

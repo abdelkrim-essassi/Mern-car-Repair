@@ -1,0 +1,43 @@
+.account-nav {
+    flex: 1;
+    background-color: #F5F6F5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .account-nav ul {
+    list-style: none;
+  }
+  
+  .account-nav li {
+    padding: 15px;
+    font-size: 16px;
+    color: #1A2A44;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .account-nav li:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .account-nav li.active {
+    background-color: #F97316;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .account-nav {
+      margin-bottom: 20px;
+    }
+    .account-nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .account-nav li {
+      flex: 1;
+      text-align: center;
+    }
+  }

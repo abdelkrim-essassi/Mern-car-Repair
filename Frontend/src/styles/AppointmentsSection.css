@@ -1,0 +1,40 @@
+.appointments-section h3 {
+    font-size: 20px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .appointment {
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .appointment p {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .appointment p strong {
+    color: #1A2A44;
+  }
+  
+  .appointment button {
+    padding: 8px 15px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment button:hover {
+    background-color: #1A2A44;
+  }

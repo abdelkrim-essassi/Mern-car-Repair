@@ -1,0 +1,69 @@
+.mechanic-appointments h3 {
+    font-size: 20px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .appointment {
+    padding: 15px;
+    background-color: #F5F6F5;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .appointment:hover {
+    transform: translateY(-3px);
+  }
+  
+  .appointment p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .appointment p strong {
+    color: #1A2A44;
+  }
+  
+  .appointment-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .appointment button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-actions button:first-child {
+    background-color: #F97316;
+    color: white;
+  }
+  
+  .appointment-actions button:first-child:hover {
+    background-color: #1A2A44;
+  }
+  
+  .appointment-actions button:last-child {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .appointment-actions button:last-child:hover {
+    background-color: #c0392b;
+  }
+  
+  .appointment button {
+    background-color: #F97316;
+    color: white;
+  }
+  
+  .appointment button:hover {
+    background-color: #1A2A44;
+  }

@@ -1,0 +1,49 @@
+.mechanic-dashboard h3 {
+    font-size: 24px;
+    color: #1A2A44;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .metric-card {
+    background-color: #F5F6F5;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .metric-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metric-icon {
+    font-size: 30px;
+    color: #F97316;
+    margin-bottom: 10px;
+  }
+  
+  .metric-card h4 {
+    font-size: 16px;
+    color: #1A2A44;
+    margin-bottom: 10px;
+  }
+  
+  .metric-card p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1A2A44;
+  }
+  
+  @media (max-width: 768px) {
+    .metrics {
+      grid-template-columns: 1fr;
+    }
+  }

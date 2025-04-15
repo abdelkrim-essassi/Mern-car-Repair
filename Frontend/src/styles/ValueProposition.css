@@ -1,0 +1,48 @@
+.value-proposition {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .value-proposition h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #1A2A44;
+  }
+  
+  .value-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .value-card {
+    padding: 20px;
+    background-color: #F5F6F5;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .value-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .value-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #1A2A44;
+  }
+  
+  .value-card p {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .value-grid {
+      grid-template-columns: 1fr;
+    }
+  }

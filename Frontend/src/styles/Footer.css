@@ -1,0 +1,107 @@
+.footer {
+    background-color: #1A2A44;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .email-signup {
+    margin-bottom: 40px;
+  }
+  
+  .email-signup h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .email-signup form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .email-signup input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  .email-signup button {
+    padding: 10px 25px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .email-signup button:hover {
+    background-color: white;
+    color: #1A2A44;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 20px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p, .footer-section ul {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #F97316;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #F97316;
+  }
+  
+  .copyright {
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  }

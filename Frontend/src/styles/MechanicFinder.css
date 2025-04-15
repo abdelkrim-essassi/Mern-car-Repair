@@ -1,0 +1,21 @@
+.mechanic-finder {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex: 1;
+    padding: 100px 30px 30px; /* Added padding-top to account for header height */
+  }
+  
+  .search-and-filters {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .search-and-filters h2 {
+    font-size: 32px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }

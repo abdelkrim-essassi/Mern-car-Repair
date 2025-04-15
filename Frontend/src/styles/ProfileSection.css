@@ -1,0 +1,94 @@
+.profile-section h3 {
+    font-size: 20px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .profile-details p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .profile-details p strong {
+    color: #1A2A44;
+  }
+  
+  .profile-details button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-details button:hover {
+    background-color: #1A2A44;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #1A2A44;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .form-group input:focus {
+    border-color: #F97316;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+  
+  .form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-actions button[type="submit"] {
+    background-color: #F97316;
+    color: white;
+  }
+  
+  .form-actions button[type="submit"]:hover {
+    background-color: #1A2A44;
+  }
+  
+  .form-actions button[type="button"] {
+    background-color: #ccc;
+    color: #1A2A44;
+  }
+  
+  .form-actions button[type="button"]:hover {
+    background-color: #999;
+  }

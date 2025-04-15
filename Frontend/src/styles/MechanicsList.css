@@ -1,0 +1,65 @@
+.mechanics-list {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .mechanic-card {
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .mechanic-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .mechanic-card h3 {
+    font-size: 18px;
+    color: #1A2A44;
+    margin-bottom: 10px;
+  }
+  
+  .mechanic-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .mechanic-card .rating {
+    margin: 10px 0;
+  }
+  
+  .mechanic-card .rating span {
+    font-size: 16px;
+    color: #F97316;
+  }
+  
+  .mechanic-card button {
+    padding: 8px 20px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mechanic-card button:hover {
+    background-color: #1A2A44;
+  }
+  
+  @media (max-width: 768px) {
+    .list {
+      grid-template-columns: 1fr;
+    }
+  }

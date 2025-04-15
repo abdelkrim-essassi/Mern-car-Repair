@@ -1,0 +1,52 @@
+.admin-overview h3 {
+    font-size: 24px;
+    color: #1A2A44;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .metric-card {
+    background: linear-gradient(135deg, #ffffff 0%, #f7f9fc 100%);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .metric-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .metric-icon {
+    font-size: 32px;
+    color: #F97316;
+    margin-bottom: 15px;
+  }
+  
+  .metric-card h4 {
+    font-size: 16px;
+    color: #1A2A44;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .metric-card p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1A2A44;
+  }
+  
+  @media (max-width: 768px) {
+    .metrics {
+      grid-template-columns: 1fr;
+    }
+  }

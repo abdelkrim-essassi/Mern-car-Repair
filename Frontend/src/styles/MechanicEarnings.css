@@ -1,0 +1,51 @@
+.mechanic-earnings h3 {
+    font-size: 20px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .earnings-overview h4 {
+    font-size: 18px;
+    color: #1A2A44;
+    margin-bottom: 20px;
+  }
+  
+  .earnings-chart {
+    background-color: #F5F6F5;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .transactions {
+    margin-top: 30px;
+  }
+  
+  .transactions h4 {
+    font-size: 18px;
+    color: #1A2A44;
+    margin-bottom: 15px;
+  }
+  
+  .transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F5F6F5;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .transaction:hover {
+    transform: translateY(-3px);
+  }
+  
+  .transaction p {
+    font-size: 14px;
+    color: #666;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .transaction p strong {
+    color: #1A2A44;
+  }

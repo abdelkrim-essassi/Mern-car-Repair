@@ -1,0 +1,20 @@
+.homepage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f7f9fc;
+  }
+  
+  main {
+    flex: 1;
+    padding: 100px 30px 30px; /* Added padding-top to account for header height */
+    text-align: center;
+  }
+  
+  .hero {
+    background: linear-gradient(135deg, #1A2A44 0%, #2D4373 100%);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+  }
